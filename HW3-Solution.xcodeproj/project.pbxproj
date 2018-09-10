@@ -14,6 +14,8 @@
 		9E1E65512142BF8900F4E8CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1E654F2142BF8900F4E8CB /* LaunchScreen.storyboard */; };
 		9E1E655C2142BF8900F4E8CB /* HW3_SolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1E655B2142BF8900F4E8CB /* HW3_SolutionTests.swift */; };
 		9E1E65672142BF8900F4E8CB /* HW3_SolutionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1E65662142BF8900F4E8CB /* HW3_SolutionUITests.swift */; };
+		9E1E65752142C38700F4E8CB /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1E65742142C38700F4E8CB /* DecimalMinusTextField.swift */; };
+		9E1E65772142C53800F4E8CB /* UnitsAndModes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1E65762142C53800F4E8CB /* UnitsAndModes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9E1E65622142BF8900F4E8CB /* HW3-SolutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW3-SolutionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1E65662142BF8900F4E8CB /* HW3_SolutionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_SolutionUITests.swift; sourceTree = "<group>"; };
 		9E1E65682142BF8900F4E8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E1E65742142C38700F4E8CB /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalMinusTextField.swift; sourceTree = "<group>"; };
+		9E1E65762142C53800F4E8CB /* UnitsAndModes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsAndModes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				9E1E65462142BF8800F4E8CB /* AppDelegate.swift */,
 				9E1E65482142BF8800F4E8CB /* ViewController.swift */,
 				9E1E654A2142BF8800F4E8CB /* Main.storyboard */,
+				9E1E65742142C38700F4E8CB /* DecimalMinusTextField.swift */,
 				9E1E654D2142BF8900F4E8CB /* Assets.xcassets */,
 				9E1E654F2142BF8900F4E8CB /* LaunchScreen.storyboard */,
 				9E1E65522142BF8900F4E8CB /* Info.plist */,
+				9E1E65762142C53800F4E8CB /* UnitsAndModes.swift */,
 			);
 			path = "HW3-Solution";
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E1E65772142C53800F4E8CB /* UnitsAndModes.swift in Sources */,
+				9E1E65752142C38700F4E8CB /* DecimalMinusTextField.swift in Sources */,
 				9E1E65492142BF8800F4E8CB /* ViewController.swift in Sources */,
 				9E1E65472142BF8800F4E8CB /* AppDelegate.swift in Sources */,
 			);
